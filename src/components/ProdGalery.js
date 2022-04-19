@@ -43,7 +43,6 @@ const ProdGalery = (props) => {
             alt="thumbnail"
             onClick={(prod) => changeImage(prodImage.images[i++])}
           />
-          {console.log(i)}
         </div>
       ))}
     </StyledGalery>

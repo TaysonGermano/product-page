@@ -12,8 +12,6 @@ const StyledAvatar = styled.button`
   cursor: pointer;
 `;
 
-const Avatar = (props) => {
-  return <StyledAvatar url={`url(${image})`} />;
-};
+const Avatar = (props) => <StyledAvatar url={`url(${image})`} />;
 
 export default Avatar;
